@@ -73,8 +73,8 @@ bash vllm-deepseek-ocr-2-openapikey.sh
 |----|----|
 |文档转 Markdown（带布局）|```<image>\n<&#124;grounding&#124;>Convert the document to markdown.```|
 |无布局纯文本 OCR|```<image>\n10Free OCR.```|
-|其他图像（带布局）|<image>\n<&#124;grounding&#124;>OCR this image.|
-|解析图表|<image>\nParse the figure.|
-|通用图像描述|<image>\nDescribe this image in detail.|
-|目标定位|<image>\nLocate <&#124;ref&#124;>xxxx<&#124;/ref&#124;> in the image.|
+|其他图像（带布局）|```<image>\n<&#124;grounding&#124;>OCR this image.```|
+|解析图表|```<image>\nParse the figure.```|
+|通用图像描述|```<image>\nDescribe this image in detail.```|
+|目标定位|```<image>\nLocate <&#124;ref&#124;>xxxx<&#124;/ref&#124;> in the image.```|
 
