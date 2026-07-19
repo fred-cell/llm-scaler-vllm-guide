@@ -2,10 +2,10 @@
 ```
 intel/
 ├──LLM-Models/
-│  ├──DeepSeek-OCR-2/
+│  └──DeepSeek-OCR-2/
 ├──llm-serving/
 │  ├──start-docker.sh
-│  ├──vllm-deepseek-ocr-2-openapikey.sh
+│  └──vllm-deepseek-ocr-2-openapikey.sh
 ```
 ## Startup vllm serving container
 ```bash
