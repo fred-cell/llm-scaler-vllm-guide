@@ -6,7 +6,7 @@ Docker images is from Intel's llm-scaler project.
 
 ## Deploy OCR Model Guide
 ### Guide List includes models as below
-| Model | llm-scaler version | Description |
+| Model | Verify Version | Description |
 | ---- | ---- | ---- |
 | DeepSeek-OCR-2 | llm-scaler-vllm:0.21.0-b1 | |
 | PaddleOCR-VL | llm-scaler-vllm:0.21.0-b1 |  |
