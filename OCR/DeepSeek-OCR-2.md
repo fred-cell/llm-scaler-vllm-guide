@@ -1,18 +1,11 @@
 ## Download DeepSeek-OCR-2 from Huggingface or other model Repository
 ```
-intel\
-|----LLM-Models/
-| |----DeepSeek-OCR-2/
-|----llm-serving/
-| |----start-docker.sh
-```
-```
-project/
-├── logs/
-│   └── .gitkeep       # 占位文件，保存空目录
-├── temp/
-│   └── .gitkeep
-└── README.md
+intel/
+├──LLM-Models/
+│  ├──DeepSeek-OCR-2/
+├──llm-serving/
+│  ├──start-docker.sh
+│  ├──vllm-deepseek-ocr-2-openapikey.sh
 ```
 ## Startup vllm serving container
 ```bash
