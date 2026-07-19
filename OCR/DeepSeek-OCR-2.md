@@ -71,8 +71,8 @@ bash vllm-deepseek-ocr-2-openapikey.sh
 #### Common Prompt Template
 |Task Mode|English Prompt|
 |----|----|
-|文档转 Markdown（带布局）|<image>\n<&#124;grounding&#124;>Convert the document to markdown.|
-|无布局纯文本 OCR|<image>\n10Free OCR.|
+|文档转 Markdown（带布局）|```<image>\n<&#124;grounding&#124;>Convert the document to markdown.```|
+|无布局纯文本 OCR|```<image>\n10Free OCR.```|
 |其他图像（带布局）|<image>\n<&#124;grounding&#124;>OCR this image.|
 |解析图表|<image>\nParse the figure.|
 |通用图像描述|<image>\nDescribe this image in detail.|
