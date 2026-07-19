@@ -26,6 +26,36 @@ sudo docker run -td --privileged --net=host \
 docker exec -it llm-serving bash
 ```
 ```bash
-cd /llm/scripts
+cd /llm
+mkdir media
 ```
 <summary>通过脚本vllm-deepseek-ocr-2-openaikey.sh部署OCR服务</summary>
+```bash
+#!/bin/bash
+#
+model_name=DeepSeek-OCR-2
+
+export VLLM_ALLOW_LONG_MAX_MODEL_LEN=1
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
+export VLLM_OFFLOAD_WEIGHTS_BEFORE_QUANT=1
+
+vllm serve --model /llm/models/$model_name \
+        --served-model-name $model_name \
+        --port 8001 \
+        --host 0.0.0.0 \
+        --gpu-memory-util 0.9 \
+        --max-model-len 8192 \
+        --block-size 64 \
+        --dtype float16 \
+        --enforce-eager \
+        --api-key intel123 \
+        --trust-remote-code \
+        --enable-prompt-tokens-details \
+        --tensor-parallel-size 1 \
+        --no-enable-prefix-caching \
+        --mm-processor-cache-gb 0 \
+        --max-num-seqs 10 \
+        --quantization fp8 \
+        --logits_processors vllm.model_executor.models.deepseek_ocr:NGramPerReqLogitsProcessor \
+        --allowed-local-media-path /llm/media
+```
