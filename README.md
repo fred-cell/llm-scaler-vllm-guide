@@ -16,4 +16,4 @@ Docker images is from Intel's llm-scaler project.
 ### Model list is as below:
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
-|Qwen3-ASR-1.7B|llm-scaler-vllm:0.21.0-b1||
+|Qwen3-ASR-1.7B|llm-scaler-vllm:0.21.0-b1|[Qwen3-ASR-1.7B.md](./ASR/Qwen3-ASR-1.7B.md)|
