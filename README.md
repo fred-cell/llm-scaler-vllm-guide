@@ -8,6 +8,6 @@ Docker images is from Intel's llm-scaler project.
 ### Guide List includes models as below
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
-| DeepSeek-OCR-2 | llm-scaler-vllm:0.21.0-b1 | |
+| DeepSeek-OCR-2 | llm-scaler-vllm:0.21.0-b1 |[DeepSeek-OCR-2.md](./OCR/DeepSeek-OCR-2.md) |
 | PaddleOCR-VL | llm-scaler-vllm:0.21.0-b1 |  |
 | MinerU | llm-scaler-vllm:0.21.0-b1| |
