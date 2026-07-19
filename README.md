@@ -6,7 +6,7 @@ Docker images is from Intel's llm-scaler project.
 
 # Deploy OCR Model Guide
 # 表格
-| Model | 版本 | 说明 |
+| Model | llm-scaler version | Description |
 | ---- | ---- | ---- |
-| Python | 3.10 | 运行环境 |
-| Node | 18 | 前端编译 |
+| DeepSeek-OCR-2 | 0.21.0-b1 | |
+| PaddleOCR-VL | 0.21.0-b1 |  |
