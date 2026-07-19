@@ -21,3 +21,11 @@ sudo docker run -td --privileged --net=host \
         --entrypoint /bin/bash \
         intel/llm-scaler-vllm:0.21.0-b1
 ```
+## Deploy DeepSeek-OCR-2 Serving
+```bash
+docker exec -it llm-serving bash
+```
+```bash
+cd /llm/scripts
+```
+<summary>通过脚本vllm-deepseek-ocr-2-openaikey.sh部署OCR服务</summary>
