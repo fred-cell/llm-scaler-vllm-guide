@@ -29,7 +29,7 @@ docker exec -it llm-serving bash
 cd /llm
 mkdir media
 ```
-<summary>通过脚本vllm-deepseek-ocr-2-openaikey.sh部署OCR服务</summary>
+通过脚本vllm-deepseek-ocr-2-openaikey.sh部署OCR服务
 ```bash
 #!/bin/bash
 #
