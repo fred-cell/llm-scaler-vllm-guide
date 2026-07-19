@@ -59,3 +59,7 @@ vllm serve --model /llm/models/$model_name \
         --logits_processors vllm.model_executor.models.deepseek_ocr:NGramPerReqLogitsProcessor \
         --allowed-local-media-path /llm/media
 ```
+```bash
+cd /llm/scripts
+bash vllm-deepseek-ocr-2-openapikey.sh
+```
