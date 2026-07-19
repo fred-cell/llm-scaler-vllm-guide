@@ -5,7 +5,7 @@ This guide is for multi-arc solution base Intel's Arc Pro GPU which includes Arc
 Docker images is from Intel's llm-scaler project.
 
 # Deploy OCR Model Guide
-# 表格
+## Guide List includes models as below
 | Model | llm-scaler version | Description |
 | ---- | ---- | ---- |
 | DeepSeek-OCR-2 | 0.21.0-b1 | |
