@@ -48,7 +48,6 @@ vllm serve --model /llm/models/$model_name \
         --block-size 64 \
         --dtype float16 \
         --enforce-eager \
-        --api-key intel123 \
         --trust-remote-code \
         --enable-prompt-tokens-details \
         --tensor-parallel-size 1 \
@@ -66,7 +65,32 @@ bash vllm-deepseek-ocr-2-openapikey.sh
 ```
 ### Client request service
 
-
+```bash
+curl -X POST "http://localhost:8001/v1/chat/completions" \
+     -H "Content-Type: application/json" \
+     --data '{
+       "model": "DeepSeek-OCR-2",
+       "messages": [
+         {
+           "role": "user",
+           "content": [
+             {
+               "type": "image_url",
+               "image_url": {
+                 "url": "https://example.com/your_image.png"
+               }
+             },
+             {
+               "type": "text",
+               "text": "<image>\nFree OCR."
+             }
+           ]
+         }
+       ],
+       "max_tokens": 2048,
+       "temperature": 0.0
+     }'
+```
 
 #### Common Prompt Template
 |Task Mode|English Prompt|
