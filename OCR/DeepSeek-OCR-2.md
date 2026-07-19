@@ -6,6 +6,14 @@ intel\
 |----llm-serving/
 | |----start-docker.sh
 ```
+```
+project/
+├── logs/
+│   └── .gitkeep       # 占位文件，保存空目录
+├── temp/
+│   └── .gitkeep
+└── README.md
+```
 ## Startup vllm serving container
 ```bash
 #!/bin/bash
