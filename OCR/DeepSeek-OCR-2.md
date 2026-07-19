@@ -13,7 +13,7 @@ intel/
 
 sudo docker run -td --privileged --net=host \
         --device=/dev/dri \
-        --name=llm-serving \
+        --name=ocr-serving \
         -v /home/intel/LLM-Models:/llm/models/ \
         -v /home/intel/llm-serving:/llm/scripts \
         -e no_proxy=localhost,127.0.0.1 \
@@ -23,7 +23,7 @@ sudo docker run -td --privileged --net=host \
 ```
 ## Deploy DeepSeek-OCR-2 Serving
 ```bash
-docker exec -it llm-serving bash
+docker exec -it ocr-serving bash
 ```
 ```bash
 cd /llm
