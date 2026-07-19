@@ -1,9 +1,11 @@
 ## Download DeepSeek-OCR-2 from Huggingface or other model Repository
-intel
-|----LLM-Models
-| |----DeepSeek-OCR-2
-|----llm-serving
+```
+intel\
+|----LLM-Models/
+| |----DeepSeek-OCR-2/
+|----llm-serving/
 | |----start-docker.sh
+```
 ## Startup vllm serving container
 ```bash
 #!/bin/bash
