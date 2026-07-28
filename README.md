@@ -9,7 +9,7 @@ Docker images is from Intel's llm-scaler project.
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
 | DeepSeek-OCR-2 | llm-scaler-vllm:0.21.0-b1 |[DeepSeek-OCR-2.md](./OCR/DeepSeek-OCR-2.md) |
-| PaddleOCR-VL | llm-scaler-vllm:0.21.0-b1 |  |
+| PaddleOCR-VL | llm-scaler-vllm:0.21.0-b1 | [PaddleOCR-VL-1.6.md](./OCR/PaddleOCR-VL-1.6.md) |
 | MinerU | llm-scaler-vllm:0.21.0-b1| |
 
 ## Deploy ASR Model Guide
