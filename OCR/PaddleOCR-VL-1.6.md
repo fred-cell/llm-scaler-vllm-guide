@@ -8,6 +8,7 @@ intel/
    └──vllm-paddleocr-vl-1.6-openapikey.sh
 ```
 ## Startup vllm serving container
+start-docker.sh script is as below:
 ```bash
 #!/bin/bash
 
