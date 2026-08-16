@@ -14,4 +14,6 @@ intel/
 ```bash
 python funasr_server.py
 ```
-![Uploading image.png…]()
+Serving log is as below:
+<img width="1336" height="442" alt="image" src="https://github.com/user-attachments/assets/c1659a48-2905-4ff2-99fd-e758975bc6a6" />
+
