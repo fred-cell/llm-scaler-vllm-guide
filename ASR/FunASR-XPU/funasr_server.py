@@ -9,7 +9,7 @@ lock = asyncio.Lock()
 
 asr_model = AutoModel(
     model="/home/intel/LLM-Models/SenseVoiceSmall",
-    device="cpu"
+    device="XPU"
 )
 
 VALID_API_KEY="intel123"
