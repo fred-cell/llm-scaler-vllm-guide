@@ -1,4 +1,4 @@
-# Deploy FunASR model based intel GPU
+# Deploy FunASR model with offline mode based intel GPU
 ## 1. Download model SenseVoiceSmall from Huggingface or ModelScope
 ```
 intel/
