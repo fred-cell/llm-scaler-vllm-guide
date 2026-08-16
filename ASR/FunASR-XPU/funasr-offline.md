@@ -5,7 +5,7 @@ Deploy FunASR model and provide OpenAI API interface, support audio file's recog
 ```
 intel/
 ├──LLM-Models/
-   └──SenseVoiceSmall/
+   └──SenseVoiceSmall/ #多语言离线语音理解模型
 ```
 ## 2. Install Server-side Packages
 ```bash
