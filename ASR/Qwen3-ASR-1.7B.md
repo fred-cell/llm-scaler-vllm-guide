@@ -1,5 +1,6 @@
 ## Deploy Architecture:
 ```markdown
+flowchart LR
 +------------------+        WebSocket         +---------------------------+
 |  Python Client   |  <--------------------> |  Streaming ASR Gateway    |
 |  mic / file      |       PCM16 16k mono     |  FastAPI + WebSocket      |
