@@ -19,14 +19,19 @@ lock = asyncio.Lock()
 
 asr_model = AutoModel(
     model="/home/intel/LLM-Models/SenseVoiceSmall",
-    device="xpu"
+    device="xpu",
+    disable_update=True
 )
 
 # 自检：打印模型真实设备
 logger.info("==== XPU 设备检测 ====")
 logger.info(f"torch.xpu.is_available(): {torch.xpu.is_available()}")
 try:
-    param_device = next(asr_model.model.model.parameters()).device
+    inner_model = asr_model.model
+    if hasattr(inner_model, "model"):
+        param_device = next(inner_model.model.parameters()).device
+    else:
+        param_device = next(inner_model.parameters()).device
     logger.info(f"SenseVoiceSmall 模型权重所在设备: {param_device}")
 except Exception as e:
     logger.warning(f"获取模型设备失败: {str(e)}")
