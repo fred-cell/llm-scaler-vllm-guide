@@ -1,3 +1,15 @@
+## Deploy Architecture:
++------------------+        WebSocket         +---------------------------+
+|  Python Client   |  <--------------------> |  Streaming ASR Gateway    |
+|  mic / file      |       PCM16 16k mono     |  FastAPI + WebSocket      |
++------------------+                          +-------------+-------------+
+                                                         |
+                                                         | HTTP OpenAI API
+                                                         v
+                                              +---------------------------+
+                                              |  vLLM Qwen3-ASR Service   |
+                                              +---------------------------+
+
 ## Download DeepSeek-OCR-2 from Huggingface or other model Repository
 ```
 intel/
