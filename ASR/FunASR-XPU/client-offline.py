@@ -3,7 +3,7 @@ from openai import OpenAI
 
 def main():
     parser = argparse.ArgumentParser(description="SenseVoice ASR Client")
-    parser.add_argument("--ip", required=True, help="Server IP, for example: 192.168.11.2")
+    parser.add_argument("--ip", required=True, help="Server IP, for example: 127.0.0.1")
     parser.add_argument("--audio", required=True, help="audio file path")
     parser.add_argument("--port", default="8005", help="Server Port, default 8005")
     parser.add_argument("--api_key", default="intel123", help="API Key")
