@@ -24,7 +24,7 @@ Serving log is as below:
 
 ## 5. Test ASR using cliet-offline.py
 ```bash
-# python client-offline.py --port 127.0.0.1 --port 8005 --audio ./sample.wav
+# python client_offline.py --port 127.0.0.1 --port 8005 --audio ./sample.wav
 ```
 ASR's result is as below:
 <|zh|><|NEUTRAL|><|Speech|><|woitn|>富士康在印度工厂出现大规模感染目前工厂产量已下降超百分之五十
