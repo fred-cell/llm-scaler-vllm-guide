@@ -1,7 +1,7 @@
 ## Deploy Architecture:
 ```markdown
 +------------------+        WebSocket         +---------------------------+
-|  Python Client   |  <--------------------> |  Streaming ASR Gateway    |
+|  Python Client   |  <-------------------->  |  Streaming ASR Gateway    |
 |  mic / file      |       PCM16 16k mono     |  FastAPI + WebSocket      |
 +------------------+                          +-------------+-------------+
                                                          |
@@ -11,7 +11,6 @@
                                               |  vLLM Qwen3-ASR Service   |
                                               +---------------------------+
 ```
-
 ## Download Qwen3-ASR-1.7B from Huggingface or other model Repository
 ```
 intel/
