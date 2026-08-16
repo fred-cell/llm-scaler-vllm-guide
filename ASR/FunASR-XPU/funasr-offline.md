@@ -1,4 +1,6 @@
 # Deploy FunASR model with offline mode based intel GPU
+Deploy FunASR model and provide OpenAI API interface, support audio file's recognition.
+
 ## 1. Download model SenseVoiceSmall from Huggingface or ModelScope
 ```
 intel/
