@@ -1,5 +1,6 @@
 # Deploy FunASR model with offline mode based intel GPU
 Deploy FunASR model and provide OpenAI API interface, support audio file's recognition.
+SenseVoiceSmall supports languages that includes 普通话、粤语、英语、日语 and 韩语（5 种主流）.
 
 ## 1. Download model SenseVoiceSmall from Huggingface or ModelScope
 ```
