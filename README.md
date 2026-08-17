@@ -17,4 +17,4 @@ Docker images is from Intel's llm-scaler project.
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
 |Qwen3-ASR-1.7B|llm-scaler-vllm:0.21.0-b1|[Qwen3-ASR-1.7B.md](./ASR/Qwen3-ASR/Qwen3-ASR-1.7B.md)|
-|SenseVoiceSmall|PyTorch|[funaudiollm_offline.md](./ASR/FunASR-XPU/funaudiollm_offline.md)|
+|SenseVoiceSmall|PyTorch==2.13.0+xpu|[funaudiollm_offline.md](./ASR/FunASR-XPU/funaudiollm_offline.md)|
