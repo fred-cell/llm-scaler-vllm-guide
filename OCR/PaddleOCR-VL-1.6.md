@@ -20,7 +20,7 @@ sudo docker run -td --privileged --net=host \
         -e no_proxy=localhost,127.0.0.1 \
         --shm-size="32g" \
         --entrypoint /bin/bash \
-        intel/llm-scaler-vllm:0.21.0-b1
+        intel/llm-scaler-vllm:0.26.0-b2
 ```
 ## Deploy DeepSeek-OCR-2 Serving
 ```bash
