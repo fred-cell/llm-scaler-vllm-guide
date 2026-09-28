@@ -8,13 +8,13 @@ Docker images is from Intel's llm-scaler project.
 ### Model list is as below:
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
-| DeepSeek-OCR-2 | llm-scaler-vllm:0.21.0-b1 |[DeepSeek-OCR-2.md](./OCR/DeepSeek-OCR-2.md) |
-| PaddleOCR-VL | llm-scaler-vllm:0.21.0-b1 | [PaddleOCR-VL-1.6.md](./OCR/PaddleOCR-VL-1.6.md) |
-| MinerU | llm-scaler-vllm:0.21.0-b1| |
+| DeepSeek-OCR-2 | llm-scaler-vllm:0.26.0-b2 |[DeepSeek-OCR-2.md](./OCR/DeepSeek-OCR-2.md) |
+| PaddleOCR-VL | llm-scaler-vllm:0.26.0-b2 | [PaddleOCR-VL-1.6.md](./OCR/PaddleOCR-VL-1.6.md) |
+| MinerU | llm-scaler-vllm:0.26.0-b2| |
 
 ## Deploy ASR Model Guide
 ### Model list is as below:
 | Model | Verify Version | Description |
 | ---- | ---- | ---- |
-|Qwen3-ASR-1.7B|llm-scaler-vllm:0.21.0-b1|[Qwen3-ASR-1.7B.md](./ASR/Qwen3-ASR/Qwen3-ASR-1.7B.md)|
+|Qwen3-ASR-1.7B|llm-scaler-vllm:0.26.0-b2|[Qwen3-ASR-1.7B.md](./ASR/Qwen3-ASR/Qwen3-ASR-1.7B.md)|
 |SenseVoiceSmall|PyTorch==2.13.0+xpu|[funaudiollm_offline.md](./ASR/FunASR-XPU/funaudiollm_offline.md)|
